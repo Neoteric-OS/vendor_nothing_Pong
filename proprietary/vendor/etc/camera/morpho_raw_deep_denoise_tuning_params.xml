@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Morpho Raw Deep Denoise Parameters Configuration -->
+<!-- Copyright(c) 2023 Morpho China,Inc.  -->
+
+<raw_deep_denoise>
+  <version type="string" length="1">v1.0.3_morpho_generic_202306012</version>
+  <camera_id type="int" length="1">0</camera_id>
+
+  <params>
+    <iso value="50">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">1.0</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.2</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="100">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">1.0</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.2</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="200">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.9</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.1</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="400">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.8</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.0</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="600">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.8</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">0.8</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="800">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.9</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.0</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="1200">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.9</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">0.9</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="1600">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.9</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">0.9</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="2400">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.9</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">0.9</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="3200">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">0.9</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.0</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+    <iso value="99999">
+      <bright_ynr_level type="double" rang="[0.2,1.6]"   default="1.0" length="1">1.0</bright_ynr_level>
+      <dark_ynr_level   type="double" rang="[0.2,1.8]"   default="1.0" length="1">1.0</dark_ynr_level>
+      <ynr_remain       type="double" rang="[0.0,1.0]"   default="0.0" length="1">0.0</ynr_remain>
+    </iso>
+  </params>
+</raw_deep_denoise>

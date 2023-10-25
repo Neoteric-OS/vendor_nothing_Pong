@@ -1,0 +1,49 @@
+libqti-perfd-client.so
+libadsprpc.so
+libcdsprpc.so
+libsdsprpc.so
+libfastcvopt.so
+libOpenCL.so
+libarcsoft_portrait_super_night_raw.so 64
+libarcsoft_super_night_raw.so 64
+libarcsoft_dark_vision_raw.so 64
+libarcsoft_beautyshot.so 64
+libarcsoft_singlecam_bokeh.so 64
+libarcsoft_hdr_detection.so 64
+libarcsoft_aiscenedetection.so 64
+libmouth_mask_detection.arcsoft.so 64
+libarcsoft_watermark.so 64
+libarcsoft_portrait_distortion_correction.so 64
+libarcsoft_high_dynamic_range.so 64
+libarcsoft_low_light_hdr.so 64
+libarcsoft_dualcam_refocus_image.so 64
+libarcsoft_dualcam_refocus_video.so 64
+libarcsoft_superportrait.so 64
+libarcsoft_qnnhtp.so 64
+libsuperresolution_raw.arcsoft.so 64
+libQnnChrometraceProfilingReader.so 64
+libQnnCpu.so 64
+libQnnDsp.so 64
+libQnnDspNetRunExtensions.so 64
+libQnnGpu.so 64
+libQnnGpuNetRunExtensions.so 64
+libQnnGpuProfilingReader.so 64
+libQnnHta.so 64
+libQnnHtaNetRunExtensions.so 64
+libQnnHtp.so 64
+libQnnHtpNetRunExtensions.so 64
+libQnnHtpPrepare.so 64
+libQnnHtpProfilingReader.so 64
+libQnnHtpV69Stub.so 64
+libQnnSaver.so 64
+libQnnSystem.so 64
+libhta_hexagon_runtime_qnn.so 64
+libmorpho_RawDeepDenoise.so 64
+libarcsoft_high_dynamic_range_v5.so 64
+libcamxextension_night.so 64
+libportrait_repair_ppl3_ocl.so 64
+libarcsoft_t_hdr_raw.so 64
+libarcsoft_t_hdr_raw_front.so 64
+libarcsoft_turbo_fusion_raw_super_night.so 64
+libarcsoft_turbo_fusion_raw_portrait_super_night.so 64
+libarcsoft_facialrestoration.so 64

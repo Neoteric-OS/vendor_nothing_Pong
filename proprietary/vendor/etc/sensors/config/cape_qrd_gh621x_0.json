@@ -1,0 +1,28 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf", "RCM", "HDK", "IDP", "QRD"],
+    "soc_id": ["530"]
+  },
+  "gh621x_0":{
+    "owner": "gh621x_0",
+    ".sar":{
+      "owner": "gh621x_0",
+      ".config":{
+        "owner": "gh621x_0",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}

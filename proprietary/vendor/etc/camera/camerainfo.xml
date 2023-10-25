@@ -1,0 +1,19 @@
+<CameraInfo>
+  <CameraInfoData name="rear">
+    <type>main</type>
+    <width>8192</width>
+    <height>6144</height>
+  </CameraInfoData>
+
+  <CameraInfoData name="rear">
+    <type>aux</type>
+    <width>8160</width>
+    <height>6144</height>
+  </CameraInfoData>
+
+  <CameraInfoData name="front">
+    <type>front</type>
+    <width>6560</width>
+    <height>4928</height>
+  </CameraInfoData>
+</CameraInfo>
