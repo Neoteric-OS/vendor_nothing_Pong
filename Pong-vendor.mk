@@ -145,6 +145,9 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/nothing/Pong/proprietary/vendor/etc/camera/AI_Seg_v0.2.29.1_nothing.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/AI_Seg_v0.2.29.1_nothing.bin \
+    vendor/nothing/Pong/proprietary/vendor/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin \
+    vendor/nothing/Pong/proprietary/vendor/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/camerainfo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camerainfo.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/nothing/Pong/proprietary/vendor/etc/camera/default_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/default_params.xml \
@@ -309,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID2_MIC_HDR_voicefocus.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID2_MIC_HDR_voicefocus.txt \
     vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt \
     vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt \
-    vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/4mic/audiozoom_13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/audiozoom_13.txt \
     vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/4mic/audiozoom_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/4mic/audiozoom_4.txt \
     vendor/nothing/Pong/proprietary/vendor/etc/media_cape/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_cape/video_system_specs.json \
     vendor/nothing/Pong/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -1140,6 +1142,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
+    vendor/nothing/Pong/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libarcsoft_aiscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_aiscenedetection.so \
@@ -1337,7 +1340,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libnetmgrportutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgrportutils.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libnetmgrxfrmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgrxfrmutils.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libofflinepostprocclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinepostprocclient.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libomp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomp.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \

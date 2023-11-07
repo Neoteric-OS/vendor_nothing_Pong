@@ -47,3 +47,4 @@ libarcsoft_t_hdr_raw_front.so 64
 libarcsoft_turbo_fusion_raw_super_night.so 64
 libarcsoft_turbo_fusion_raw_portrait_super_night.so 64
 libarcsoft_facialrestoration.so 64
+libalCFR.so
