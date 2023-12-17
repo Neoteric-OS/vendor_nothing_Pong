@@ -280,6 +280,13 @@ dex_import {
 }
 
 dex_import {
+	name: "audiosphere",
+	owner: "nothing",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "nothing",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
@@ -332,9 +339,36 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "dataconnection-saidl",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.4-service.widevine",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_non_qmaa",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_non_qmaa_extn",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -362,6 +396,15 @@ prebuilt_etc_xml {
 	name: "vendor.qti.hardware.qconfig@1.0-service",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.radio.ims",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
