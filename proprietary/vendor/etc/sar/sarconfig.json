@@ -1,0 +1,1034 @@
+{
+    "sar_support_module": [
+        "hanset",
+        "pad",
+        "cell",
+        "bt",
+        "wifi",
+        "wifi_freq",
+        "wifi_ap",
+        "wifi_ap_freq",
+        "wifi_cell_rrc",
+        "screen"
+    ],
+    "sar_sensor_type": 33171005,
+    "sar_sensor": [
+        {
+            "sar_sensor_name": "pad_top",
+            "sar_sensor_position": 0
+        },
+        {
+            "sar_sensor_name": "pad_bottom",
+            "sar_sensor_position": 3
+        }
+    ],
+    "cell": {
+        "default_sar_mode": "ce",
+        "sar_mode": [
+            {
+                "mode_name": "fcc",
+                "mode_priority": [
+                    {
+                        "mode_priority_name": "hanset",
+                        "mode_priority_level": 1,
+                        "mode_priority_check_signal_or_multiple": true
+                    },
+                    {
+                        "mode_priority_name": "wifi_ap",
+                        "mode_priority_level": 2,
+                        "mode_priority_check_signal_or_multiple": false
+                    }
+                ],
+                "mode_region": [
+                    {
+                        "mode_region_name": "us",
+                        "mode_region_mcc": [
+                            "310",
+                            "311",
+                            "312",
+                            "313",
+                            "314",
+                            "315",
+                            "316",
+                            "330"
+                        ]
+                    },
+                    {
+                        "mode_region_name": "canada",
+                        "mode_region_mcc": [
+                            "302"
+                        ]
+                    },
+                    {
+                        "mode_region_name": "south korea",
+                        "mode_region_mcc": [
+                            "450"
+                        ]
+                    },
+                    {
+                        "mode_region_name": "hong kong",
+                        "mode_region_mcc": [
+                            "454"
+                        ]
+                    },
+                    {
+                        "mode_region_name": "macao",
+                        "mode_region_mcc": [
+                            "455"
+                        ]
+                    },
+                    {
+                        "mode_region_name": "china",
+                        "mode_region_mcc": [
+                            "460"
+                        ]
+                    },
+                    {
+                        "mode_region_name": "mexico",
+                        "mode_region_mcc": [
+                            "334"
+                        ]
+                    }
+                ],
+                "module": [
+                    {
+                        "module_name": "hanset",
+                        "module_value": 1
+                    },
+                    {
+                        "module_name": "pad_top",
+                        "module_value": 2
+                    },
+                    {
+                        "module_name": "pad_bottom",
+                        "module_value": 4
+                    },
+                    {
+                        "module_name": "cell",
+                        "module_value": 8
+                    },
+                    {
+                        "module_name": "bt",
+                        "module_value": 16
+                    },
+                    {
+                        "module_name": "wifi",
+                        "module_value": 32
+                    },
+                    {
+                        "module_name": "wifi_ap",
+                        "module_value": 64
+                    }
+                ],
+                "reflection": [
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell"
+                        ],
+                        "reflection_value": 9
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 10
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 10
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 10
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 17
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell"
+                        ],
+                        "reflection_value": 11
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 12
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 12
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 12
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell"
+                        ],
+                        "reflection_value": 13
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell"
+                        ],
+                        "reflection_value": 13
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 14
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 14
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 14
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 14
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 14
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 14
+                    },
+                    {
+                        "reflection_name": [
+                            "cell"
+                        ],
+                        "reflection_value": 15
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 16
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 16
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 16
+                    }
+                ]
+            },
+            {
+                "mode_name": "fcc_india",
+                "mode_region": [
+                    {
+                        "mode_region_name": "india",
+                        "mode_region_mcc": [
+                            "404",
+                            "405",
+                            "406"
+                        ]
+                    }
+                ],
+                "module": [
+                    {
+                        "module_name": "hanset",
+                        "module_value": 1
+                    },
+                    {
+                        "module_name": "pad_top",
+                        "module_value": 2
+                    },
+                    {
+                        "module_name": "pad_bottom",
+                        "module_value": 4
+                    },
+                    {
+                        "module_name": "cell",
+                        "module_value": 8
+                    },
+                    {
+                        "module_name": "bt",
+                        "module_value": 16
+                    },
+                    {
+                        "module_name": "wifi",
+                        "module_value": 32
+                    },
+                    {
+                        "module_name": "wifi_ap",
+                        "module_value": 64
+                    }
+                ],
+                "reflection": [
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell"
+                        ],
+                        "reflection_value": 9
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 10
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 10
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 10
+                    }
+                ]
+            },
+            {
+                "mode_name": "ce",
+                "mode_priority": [
+                    {
+                        "mode_priority_name": "hanset",
+                        "mode_priority_level": 1,
+                        "mode_priority_check_signal_or_multiple": true
+                    }
+                ],
+                "module": [
+                    {
+                        "module_name": "hanset",
+                        "module_value": 1
+                    },
+                    {
+                        "module_name": "pad_top",
+                        "module_value": 2
+                    },
+                    {
+                        "module_name": "pad_bottom",
+                        "module_value": 4
+                    },
+                    {
+                        "module_name": "cell",
+                        "module_value": 8
+                    },
+                    {
+                        "module_name": "bt",
+                        "module_value": 16
+                    },
+                    {
+                        "module_name": "wifi",
+                        "module_value": 32
+                    },
+                    {
+                        "module_name": "wifi_ap",
+                        "module_value": 64
+                    }
+                ],
+                "reflection": [
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell"
+                        ],
+                        "reflection_value": 1
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "bt",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "hanset",
+                            "cell",
+                            "wifi",
+                            "wifi_ap",
+                            "bt"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "bt",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "wifi_ap",
+                            "bt"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell"
+                        ],
+                        "reflection_value": 5
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "bt",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "cell",
+                            "wifi",
+                            "wifi_ap",
+                            "bt"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell"
+                        ],
+                        "reflection_value": 5
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "bt",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "pad_top",
+                            "pad_bottom",
+                            "cell",
+                            "wifi",
+                            "wifi_ap",
+                            "bt"
+                        ],
+                        "reflection_value": 6
+                    },
+                    {
+                        "reflection_name": [
+                            "cell"
+                        ],
+                        "reflection_value": 7
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi"
+                        ],
+                        "reflection_value": 8
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "bt"
+                        ],
+                        "reflection_value": 8
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 8
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi",
+                            "bt"
+                        ],
+                        "reflection_value": 8
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 8
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "bt",
+                            "wifi_ap"
+                        ],
+                        "reflection_value": 8
+                    },
+                    {
+                        "reflection_name": [
+                            "cell",
+                            "wifi",
+                            "wifi_ap",
+                            "bt"
+                        ],
+                        "reflection_value": 8
+                    }
+                ]
+            }
+        ]
+    },
+    "wifi": {
+        "default_sar_mode": "wifi",
+        "sar_mode": [
+            {
+                "mode_name": "wifi",
+                "module": [
+                    {
+                        "module_name": "wifi_5g",
+                        "module_value": 1
+                    },
+                    {
+                        "module_name": "wifi_2g",
+                        "module_value": 2
+                    },
+                    {
+                        "module_name": "bt",
+                        "module_value": 4
+                    },
+                    {
+                        "module_name": "wifi_cell_rrc",
+                        "module_value": 8
+                    },
+                    {
+                        "module_name": "hanset",
+                        "module_value": 16
+                    }
+                ],
+                "reflection": [
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "bt",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "bt",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "bt",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "bt",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "bt",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "bt",
+                            "hanset"
+                        ],
+                        "reflection_value": 0
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 1
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "bt",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 1
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "wifi_cell_rrc",
+                            "hanset"
+                        ],
+                        "reflection_value": 1
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "bt"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "bt"
+                        ],
+                        "reflection_value": 2
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "bt",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_2g",
+                            "bt",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "bt"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "bt"
+                        ],
+                        "reflection_value": 3
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "bt",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 4
+                    },
+                    {
+                        "reflection_name": [
+                            "wifi_5g",
+                            "wifi_2g",
+                            "bt",
+                            "wifi_cell_rrc"
+                        ],
+                        "reflection_value": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "aol": {
+        "default_sar_mode": "aol",
+        "sar_mode": [
+            {
+                "mode_name": "aol",
+                "module": [
+                    {
+                        "module_name": "screen",
+                        "module_value": 1
+                    },
+                    {
+                        "module_name": "pad_top",
+                        "module_value": 2
+                    },
+                    {
+                        "module_name": "pad_bottom",
+                        "module_value": 4
+                    }
+                ],
+                "reflection": [
+                    {
+                        "reflection_name": [
+                            "screen",
+                            "pad_top",
+                            "pad_bottom"
+                        ],
+                        "reflection_value": 1
+                    }
+                ]
+            }
+        ]
+    }
+
+}
