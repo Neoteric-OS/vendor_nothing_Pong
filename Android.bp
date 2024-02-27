@@ -261,6 +261,23 @@ android_app_import {
 	product_specific: true,
 }
 
+android_app_import {
+	name: "QCC",
+	owner: "nothing",
+	apk: "proprietary/system_ext/app/QCC/QCC.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.nxp.nfc",
+	owner: "nothing",
+	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
+}
+
 dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "nothing",
