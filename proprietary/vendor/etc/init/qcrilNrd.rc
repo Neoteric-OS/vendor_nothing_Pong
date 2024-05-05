@@ -65,7 +65,3 @@ on property:persist.radio.multisim.config=DSDS && property:ro.baseband=mdm
     stop vendor.qcrild2
     start vendor.qcrild
     start vendor.qcrild2
-
-on property:ro.bootmode=charger
-    stop vendor.qcrild
-    stop vendor.qcrild2

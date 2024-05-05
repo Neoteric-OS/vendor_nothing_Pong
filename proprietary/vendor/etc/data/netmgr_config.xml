@@ -3273,6 +3273,8 @@
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
+      <data name="llc" type="int"> 1 </data>
+      <data name="llc_pnd_rps_mask" type="int"> 4 </data>
       <data name="num_modems" type="int"> 2 </data>
       <list name="modems_enabled">
       <data type="int"> 1 </data> <!-- MODEM_MSM -->
