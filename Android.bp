@@ -6,46 +6,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libagm",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libagm.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libagm.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libar-gsl",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libar-gsl.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libar-gsl.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libar-pal",
 	owner: "nothing",
 	strip: {
@@ -66,100 +26,51 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libagm",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libagm.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libar-gsl",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libar-gsl.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libats",
 	owner: "nothing",
 	strip: {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libats.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libats.so"],
 		},
 	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "liblx-osal",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/liblx-osal.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/liblx-osal.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libthermalclient",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libvmmem",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libvmmem.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libvmmem.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.AGMIPC@1.0-impl",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
-		},
-	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -174,6 +85,74 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfastcvopt.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "liblx-osal",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/liblx-osal.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libthermalclient",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvmmem",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvmmem.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.qti.hardware.AGMIPC@1.0-impl",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -197,17 +176,6 @@ android_app_import {
 	name: "CneApp",
 	owner: "nothing",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "ConnectionSecurityService",
-	owner: "nothing",
-	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -261,21 +229,17 @@ android_app_import {
 	product_specific: true,
 }
 
-android_app_import {
-	name: "QCC",
-	owner: "nothing",
-	apk: "proprietary/system_ext/app/QCC/QCC.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
 dex_import {
 	name: "com.nxp.nfc",
 	owner: "nothing",
 	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
+}
+
+dex_import {
+	name: "androidx.camera.extensions.impl.advanced",
+	owner: "nothing",
+	jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
@@ -313,24 +277,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "c2_manifest_vendor",
-	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "c2_manifest_vendor_audio",
-	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "dataconnection-saidl",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml",
@@ -343,6 +289,15 @@ prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.4-service.widevine",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_lahaina_identity",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_lahaina_identity.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -367,6 +322,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "qtiradio-saidl",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.diag.hal.service",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
@@ -385,9 +349,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.qconfig@1.0-service",
+	name: "vendor.qti.hardware.limits-service",
 	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
