@@ -23,4 +23,5 @@
     <feature name="com.nothing.feature.OS.V2_5_Beta2"/>
     <feature name="com.nothing.feature.ntwidget.V1_2"/>
     <feature name="com.nothing.feature.livewallpaper"/>
+    <feature name="com.nothing.feature.gallery"/>
 </permissions>
