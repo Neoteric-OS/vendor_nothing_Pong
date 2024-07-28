@@ -389,34 +389,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/cape_qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cape_qrd_mmc56x3x_0.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/cape_qrd_stk3b6x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cape_qrd_stk3b6x_0.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/cape_qrd_stk3bcx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/cape_qrd_stk3bcx_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_bu52053nvx_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_default_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_dynamic_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_hdk_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_irq.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_mtp_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_power_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_qrd_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_dynamic_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_sx932x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_qrd_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_sx932x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/diwali_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/diwali_vertigo_lsm6dst_1.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/qsh_camera.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
@@ -456,62 +428,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_bu52053nvx_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_default_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_dynamic_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_hdk_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_irq.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_mtp_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_mtp_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_mtp_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_power_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_sx932x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_qrd_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_shtw2_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_sx932x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_vertigo_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_vertigo_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/ukee_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ukee_vertigo_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_bu52053nvx_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_default_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_dynamic_sensors.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_hdk_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_hdk_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_hdk_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_hdk_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_hdk_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_irq.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_mtp_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_mtp_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_mtp_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_mtp_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_mtp_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_mtp_lsm6dst_1.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_power_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_qrd_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_qrd_lps22hh_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_qrd_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_qrd_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_qrd_sx932x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_qrd_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_qrd_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_shtw2_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_sx932x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_tmd3702_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_tmd3702_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_vertigo_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_vertigo_ak991x_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_vertigo_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_vertigo_lsm6dst_0.json \
-    vendor/nothing/Pong/proprietary/vendor/etc/sensors/config/waipio_vertigo_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/waipio_vertigo_lsm6dst_1.json \
     vendor/nothing/Pong/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/nothing/Pong/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
@@ -1544,7 +1460,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.data.lce@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.lce@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.display.config-V7-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.display.config-V7-ndk_platform.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.dpmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dpmservice@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.dpmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dpmservice@1.1.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.dsp@1.0.so \
