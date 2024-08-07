@@ -6,44 +6,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libar-pal",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libar-pal.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "fingerprint.default",
-	owner: "nothing",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/fingerprint.default.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libagm",
 	owner: "nothing",
 	strip: {
@@ -69,6 +31,23 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-gsl.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libar-pal",
+	owner: "nothing",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libar-pal.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -316,6 +295,24 @@ prebuilt_etc_xml {
 	name: "manifest_lahaina_identity",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_lahaina_identity.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_non_qmaa",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_non_qmaa_extn",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
