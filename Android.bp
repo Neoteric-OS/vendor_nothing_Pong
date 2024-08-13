@@ -301,24 +301,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_non_qmaa",
-	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_non_qmaa_extn",
-	owner: "nothing",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "qtiradio-saidl",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml",
