@@ -229,19 +229,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "com.nxp.nfc",
-	owner: "nothing",
-	jars: ["proprietary/system/framework/com.nxp.nfc.jar"],
-}
-
-dex_import {
-	name: "androidx.camera.extensions.impl.advanced",
-	owner: "nothing",
-	jars: ["proprietary/system_ext/framework/androidx.camera.extensions.impl.advanced.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "nothing",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
