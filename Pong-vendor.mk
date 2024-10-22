@@ -6,9 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nothing/Pong
 
 PRODUCT_COPY_FILES += \
-    vendor/nothing/Pong/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nothing/Pong/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/nothing/Pong/proprietary/system_ext/lib64/libqesdk_ndk_platform.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqesdk_ndk_platform.qti.so \
     vendor/nothing/Pong/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/nothing/Pong/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/nothing/Pong/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
