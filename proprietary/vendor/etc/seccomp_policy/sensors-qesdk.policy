@@ -66,3 +66,6 @@ getpid: 1
 ppoll: 1
 rt_sigtimedwait: 1
 madvise: 1
+
+# added for get tid
+gettid: 1

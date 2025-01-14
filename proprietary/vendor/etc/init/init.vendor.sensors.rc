@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Qualcomm Technologies, Inc.
+# Copyright (c) 2024 Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -50,3 +50,4 @@ on post-fs-data && property:ro.build.type=userdebug
     #sensors log dir
     mkdir /data/vendor/sensors 0777 system system
     mkdir /data/vendor/sensors/scripts 0777 system system
+    mkdir /data/vendor/sensors/diag_cfg 0777 system system

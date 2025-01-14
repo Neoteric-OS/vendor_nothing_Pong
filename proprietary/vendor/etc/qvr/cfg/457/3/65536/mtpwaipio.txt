@@ -237,6 +237,7 @@ hw_transform = imu eyeR 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0
 #sync_config_tracker  = 1
 #sync_config_rgb      = 1
 
+# The setting of device mode need to match the compilation option
 # device mode definitions
 #   default:               same as standalone
 #   standalone:            all-in-one
