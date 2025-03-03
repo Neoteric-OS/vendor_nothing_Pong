@@ -264,6 +264,24 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "c2_manifest_vendor.xml",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "c2_manifest_vendor_audio.xml",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "dataconnection-saidl.xml",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml",
@@ -321,6 +339,15 @@ prebuilt_etc_xml {
 	name: "vendor.qti.hardware.limits-service.xml",
 	owner: "nothing",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.qconfig@1.0-service.xml",
+	owner: "nothing",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
