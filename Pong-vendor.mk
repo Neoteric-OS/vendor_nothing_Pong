@@ -6,7 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nothing/Pong
 
 PRODUCT_COPY_FILES += \
+    vendor/nothing/Pong/proprietary/system_ext/bin/sltntc:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/sltntc \
+    vendor/nothing/Pong/proprietary/system_ext/etc/init/sltntc.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/sltntc.rc \
     vendor/nothing/Pong/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/nothing/Pong/proprietary/system_ext/etc/sltntc/sltntc.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc.conf \
+    vendor/nothing/Pong/proprietary/system_ext/etc/sltntc/sltntc_SM8475.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sltntc/sltntc_SM8475.conf \
     vendor/nothing/Pong/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/nothing/Pong/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/nothing/Pong/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
