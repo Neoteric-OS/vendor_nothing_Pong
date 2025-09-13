@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_acdb_cal.acdb \
-    vendor/nothing/Pong/proprietary/vendor/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/waipio_qrd/QRD_workspaceFileXml.qwsp \
     vendor/nothing/Pong/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/audio/sku_cape/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/audio/sku_cape/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_policy_configuration.xml \
@@ -934,7 +933,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-aidl-impl-qti.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/hw/audio.primary.taro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.taro.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.dsi.ant@1.0-impl.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
@@ -993,9 +991,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libTrustedUI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUI.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libTrustedUITZ.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUITZ.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libTrustedUIVM.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTrustedUIVM.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/lib_bt_bundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_bundle.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/lib_lvacfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_lvacfs.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadm.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
@@ -1006,7 +1001,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/libar-pal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-pal.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libarcsoft_aiscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_aiscenedetection.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libarcsoft_base_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_base_utils.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
@@ -1036,7 +1030,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
@@ -1107,7 +1100,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libfastcrc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcrc.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/libfmpal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfmpal.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
@@ -1210,7 +1202,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libpal_net_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpal_net_if.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalclient.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
@@ -1407,9 +1398,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/se_extn_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_extn_client.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.display.color@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.6.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.display.color@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.7.so \
@@ -1471,8 +1459,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.limits@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.limits@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.limits@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.limits@1.1.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.mwqemadapter@1.0.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0-impl.so \
-    vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.pal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.pal@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.power.powermodule@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.0.so \
     vendor/nothing/Pong/proprietary/vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qccsyshal@1.1.so \
